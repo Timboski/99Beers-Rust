@@ -19,6 +19,14 @@
 		// Set the editor font
 		"editor.fontFamily": "Cascadia Code",
 		"editor.fontLigatures": true,
+		
+		// Hide configuration and cache files
+		"files.exclude": {
+			"**/.git": true,
+			".devcontainer": true,
+			".github": true,
+			".vscode": true
+		},
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
@@ -26,7 +34,8 @@
 		"rust-lang.rust",
 		"bungcip.better-toml",
 		"vadimcn.vscode-lldb",
-		"mutantdino.resourcemonitor"
+		"mutantdino.resourcemonitor",
+		"eamodio.toggle-excluded-files"
 	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
