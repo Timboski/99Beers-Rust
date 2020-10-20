@@ -14,7 +14,11 @@
 		// VS Code don't watch files under ./target
 		"files.watcherExclude": {
 			"**/target/**": true
-		}
+		},
+		
+		// Set the editor font
+		"editor.fontFamily": "Cascadia Code",
+		"editor.fontLigatures": true,
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
